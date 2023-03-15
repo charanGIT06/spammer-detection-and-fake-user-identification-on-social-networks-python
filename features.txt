@@ -1,4 +1,4 @@
-Favourites,Retweets,Following,Followers,Reputation,Hashtag,Fake,class
+Favourites, Retweets, Following, Followers, Reputation, Hashtag, Fake, class
 25623,22,691,860,45,10418,0,0
 1375,401,217,237,4,1912,0,1
 6226,5,75,278,6,16403,0,0
