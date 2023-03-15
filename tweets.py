@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import os
+import json
 import tweepy
 
 load_dotenv()
@@ -17,13 +18,16 @@ def get_tweets(screen_name):
 
 	tweets = api.user_timeline(screen_name=screen_name, count=20)
 	
-	for tweet in tweets:
-		print(tweet.user.screen_name)
-		print(tweet.user.name)
-		print(tweet.text)
-		print(tweet.user.followers_count)
-		print(tweet.user.friends_count)
-		print(tweet.retweet_count)
-		print(tweet.favorite_count, end='\n\n')
+	# print(tweets[3]._json)
+	print( json.dumps(tweets[0]._json), end='\n\n')
+
+	# for tweet in tweets:
+	# 	print( tweet.user.screen_name )
+	# 	print( tweet.user.name )
+	# 	print( tweet.text )
+	# 	print( tweet.user.followers_count )
+	# 	print( tweet.user.friends_count )
+	# 	print( tweet.retweet_count )
+	# 	print( tweet.favorite_count, end='\n\n' )
     
 get_tweets("mkbhd")

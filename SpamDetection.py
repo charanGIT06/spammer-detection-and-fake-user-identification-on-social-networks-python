@@ -1,22 +1,21 @@
-
-from tkinter import *
+# Modules Required
 import tkinter
-from tkinter import filedialog
-import matplotlib.pyplot as plt
+from tkinter import END, Label, Button, Text, Scrollbar,filedialog
 from tkinter.filedialog import askopenfilename
-import numpy as np 
-import pandas as pd 
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import accuracy_score 
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+import matplotlib.pyplot as plt
+import numpy as np 
+import pandas as pd 
 import json
 import os
 import re
 import string
 from nltk.corpus import stopwords
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
 import pickle as cpickle
 
 
@@ -65,16 +64,14 @@ def fakeDetection():
     text.delete('1.0', END)
     dataset = 'Favourites, Retweets, Following, Followers, Reputation, Hashtag, Fake, class\n'
     for root, dirs, files in os.walk(filename):
-      print(files)
       for fdata in files:
-        print(fdata)
         with open(root+"/"+fdata, "r") as file:
             total = total + 1
             data = json.load(file)
-            # print(data)
+            
             textdata = data['text'].strip('\n')
             textdata = textdata.replace("\n"," ")
-            # textdata = re.sub('\W+',' ', textdata)
+            
             retweet = data['retweet_count']
             followers = data['user']['followers_count']
             density = data['user']['listed_count']
@@ -83,6 +80,7 @@ def fakeDetection():
             hashtag = data['user']['statuses_count']
             username = data['user']['screen_name']
             words = textdata.split(" ")
+
             text.insert(END,"Username : "+username+"\n")
             text.insert(END,"Tweet Text : "+textdata+'\n')
             text.insert(END,"Retweet Count : "+str(retweet)+"\n")
@@ -91,6 +89,7 @@ def fakeDetection():
             text.insert(END,"Reputation : "+str(density)+"\n")
             text.insert(END,"Hashtag : "+str(hashtag)+"\n")
             text.insert(END,"Tweet Words Length : "+str(len(words))+"\n")
+
             test = cvv.fit_transform([textdata])
             spam = classifier.predict(test)
             cname = 0
