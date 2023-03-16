@@ -1,0 +1,206 @@
+{
+    "created_at": "Mon Mar 13 04:26:42 +0000 2023",
+    "id": 1635135270105546752,
+    "id_str": "1635135270105546752",
+    "text": "With a hundred days to go for Yoga Day, urging you all to mark it with enthusiasm. And, if you haven\u2019t made Yoga a\u2026 https://t.co/lp6lOdMYMH",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/lp6lOdMYMH",
+                "expanded_url": "https://twitter.com/i/web/status/1635135270105546752",
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "indices": [
+                    116,
+                    139
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87100326,
+        "friends_count": 2527,
+        "listed_count": 29665,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35834,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1634855412678930434,
+    "quoted_status_id_str": "1634855412678930434",
+    "quoted_status": {
+        "created_at": "Sun Mar 12 09:54:39 +0000 2023",
+        "id": 1634855412678930434,
+        "id_str": "1634855412678930434",
+        "text": "The three day Yoga Mahotsav 2023, an event to commemorate 100 days countdown to International Day of Yoga 2023, wil\u2026 https://t.co/61Mt6HO15S",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/61Mt6HO15S",
+                    "expanded_url": "https://twitter.com/i/web/status/1634855412678930434",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2650295678,
+            "id_str": "2650295678",
+            "name": "Ministry of Ayush",
+            "screen_name": "moayush",
+            "location": "New Delhi",
+            "description": "Official Account of Ministry of Ayush",
+            "url": "https://t.co/uActbqg75b",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/uActbqg75b",
+                            "expanded_url": "http://www.ayush.gov.in",
+                            "display_url": "ayush.gov.in",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 354634,
+            "friends_count": 265,
+            "listed_count": 728,
+            "created_at": "Wed Jul 16 07:49:46 +0000 2014",
+            "favourites_count": 3057,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 14226,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "0099B9",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1560223338043420672/IKU9Aust_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1560223338043420672/IKU9Aust_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2650295678/1678697280",
+            "profile_link_color": "0099B9",
+            "profile_sidebar_border_color": "5ED4DC",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 117,
+        "favorite_count": 302,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 2749,
+    "favorite_count": 8283,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

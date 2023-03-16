@@ -91,7 +91,7 @@ class MyGUI(ctk.CTk):
         self.upload_tweets_button.grid(row=7, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
 
         # Detect Button
-        self.Detect_button = ctk.CTkButton(self.sidebar_frame, text="Detect", font=("Arial", 20), corner_radius=20)
+        self.Detect_button = ctk.CTkButton(self.sidebar_frame, text="Detect", font=("Arial", 20), corner_radius=20, command=self.fakeDetection)
         self.Detect_button.grid(row=8, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
 
         # Creating the Text Box
@@ -134,13 +134,20 @@ class MyGUI(ctk.CTk):
         # run the mainloop
         self.mainloop()
 
+    # Function to process the text data
+    def process_text(self, text):
+        nopunc = [char for char in text if char not in string.punctuation]
+        nopunc = ''.join(nopunc)
+        clean_words = [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
+        return clean_words
+
     # Function to  upload training dataset
     def upload_dataset(self):
         global filename
         filename = filedialog.askdirectory(initialdir='.')
         # pathlabel.config(text=filename)
         self.text_box.delete("1.0", END)
-        self.text_box.insert(END, f'Dataset uploaded from: {filename}'+"\n")
+        self.text_box.insert(END, f'Dataset uploaded from:\n\n{filename}'+"\n")
 
     # Function to load Naive Bayes Classifier
     def load_naive_bayes(self):
@@ -148,8 +155,9 @@ class MyGUI(ctk.CTk):
         global cvv
         self.text_box.delete("1.0", END)
         classifier = cpickle.load(open('model/naiveBayes.pkl', 'rb'))
+        self.text_box.insert(END, f'\nNaive Bayes Classifier Loaded!'+"\n")
         cv = CountVectorizer(decode_error="replace", vocabulary=cpickle.load(open("model/feature.pkl", "rb")))
-        cvv = CountVectorizer(vocabulary=cv.get_feature_names(), stop_words = "english", lowercase = True)
+        cvv = CountVectorizer(vocabulary=cv.get_feature_names(), stop_words="english", lowercase = True)
         self.text_box.insert(END, f'Naive Bayes Classifier Loaded!'+"\n")
 
     # Function to extract features from tweets
@@ -241,8 +249,8 @@ class MyGUI(ctk.CTk):
 
     # Function to plot graph
     def graph(self):
-        height = [total,fake_acc,spam_acc]
-        bars = ('Total Twitter Accounts', 'Fake Accounts','Spam Content Tweets')
+        height = [total, fake_acc, spam_acc]
+        bars = ('Total Twitter Accounts', 'Fake Accounts', 'Spam Content Tweets')
         y_pos = np.arange(len(bars))
         plt.bar(y_pos, height)
         plt.xticks(y_pos, bars)
@@ -266,7 +274,18 @@ class MyGUI(ctk.CTk):
             self.text_box.delete("1.0", END)
             self.text_box.insert(END, f'Username: {username} does not exist!'+"\n")
 
+        filenum = 1
         for tweet in tweets: # type: ignore
+            # print(tweet)
+            try:
+                f = open(f"./new-tweets/{filenum}.txt", "w")
+                f.write(str(json.dump(tweet._json, fp=f, indent=4)))
+                filenum += 1
+            except:
+                pass
+            # print(tweet)
+            # data = tweet._json
+            # print(data)
             self.text_box.insert(END, f'Tweet No: {tweet_count}'+"\n")
             tweet_count += 1
             # self.text_box.insert(END, f'Username: {tweet.user.screen_name}'+"\n")
@@ -288,6 +307,7 @@ class MyGUI(ctk.CTk):
     def clear_text(self):
         self.text_box.delete("1.0", END)
         self.account_details_text_box.delete("1.0", END)
+        self.tweet_count.delete("1.0", END)
         self.username.delete(0, END)
 
 # Create GUI

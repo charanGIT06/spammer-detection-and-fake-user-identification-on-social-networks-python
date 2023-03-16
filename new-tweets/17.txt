@@ -1,0 +1,209 @@
+{
+    "created_at": "Sun Mar 12 16:16:51 +0000 2023",
+    "id": 1634951599264022530,
+    "id_str": "1634951599264022530",
+    "text": "Highlights from a special Karnataka visit\u2026grateful to the people of Mandya and Dharwad for the warmth and affection. https://t.co/VCDadOdLNc",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+            {
+                "id": 1634950434476392453,
+                "id_str": "1634950434476392453",
+                "indices": [
+                    117,
+                    140
+                ],
+                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1634950434476392453/img/VBcyDA4ZQAsAy1FZ.jpg",
+                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1634950434476392453/img/VBcyDA4ZQAsAy1FZ.jpg",
+                "url": "https://t.co/VCDadOdLNc",
+                "display_url": "pic.twitter.com/VCDadOdLNc",
+                "expanded_url": "https://twitter.com/narendramodi/status/1634951599264022530/video/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 1920,
+                        "h": 1080,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 675,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 383,
+                        "resize": "fit"
+                    }
+                }
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "id": 1634950434476392453,
+                "id_str": "1634950434476392453",
+                "indices": [
+                    117,
+                    140
+                ],
+                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1634950434476392453/img/VBcyDA4ZQAsAy1FZ.jpg",
+                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1634950434476392453/img/VBcyDA4ZQAsAy1FZ.jpg",
+                "url": "https://t.co/VCDadOdLNc",
+                "display_url": "pic.twitter.com/VCDadOdLNc",
+                "expanded_url": "https://twitter.com/narendramodi/status/1634951599264022530/video/1",
+                "type": "video",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 1920,
+                        "h": 1080,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 675,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 383,
+                        "resize": "fit"
+                    }
+                },
+                "video_info": {
+                    "aspect_ratio": [
+                        16,
+                        9
+                    ],
+                    "duration_millis": 171040,
+                    "variants": [
+                        {
+                            "bitrate": 288000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/amplify_video/1634950434476392453/vid/480x270/WUKhsCvzHX759nHD.mp4?tag=16"
+                        },
+                        {
+                            "bitrate": 10368000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/amplify_video/1634950434476392453/vid/1920x1080/UINaHRFJPm8AZdcx.mp4?tag=16"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/amplify_video/1634950434476392453/pl/dA4V8LjKPJ04yLCl.m3u8?tag=16&container=fmp4"
+                        },
+                        {
+                            "bitrate": 2176000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/amplify_video/1634950434476392453/vid/1280x720/uwEdi4ZbhcXtirMm.mp4?tag=16"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/amplify_video/1634950434476392453/vid/640x360/N0NnINd66m_Yh7YJ.mp4?tag=16"
+                        }
+                    ]
+                },
+                "additional_media_info": {
+                    "title": "",
+                    "description": "",
+                    "embeddable": true,
+                    "monetizable": false
+                }
+            }
+        ]
+    },
+    "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87100326,
+        "friends_count": 2527,
+        "listed_count": 29665,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35834,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 7086,
+    "favorite_count": 37668,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

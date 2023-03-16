@@ -1,0 +1,238 @@
+{
+    "created_at": "Mon Mar 13 04:19:59 +0000 2023",
+    "id": 1635133578567905280,
+    "id_str": "1635133578567905280",
+    "text": "I laud the @CISFHQrs for organising their Raising Day parade outside Delhi for the first time. Such decisions incre\u2026 https://t.co/aQ66FXaK5F",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "CISFHQrs",
+                "name": "CISF",
+                "id": 789327837727559680,
+                "id_str": "789327837727559680",
+                "indices": [
+                    11,
+                    20
+                ]
+            }
+        ],
+        "urls": [
+            {
+                "url": "https://t.co/aQ66FXaK5F",
+                "expanded_url": "https://twitter.com/i/web/status/1635133578567905280",
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "indices": [
+                    117,
+                    140
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87100326,
+        "friends_count": 2527,
+        "listed_count": 29665,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35834,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1634822369960423424,
+    "quoted_status_id_str": "1634822369960423424",
+    "quoted_status": {
+        "created_at": "Sun Mar 12 07:43:21 +0000 2023",
+        "id": 1634822369960423424,
+        "id_str": "1634822369960423424",
+        "text": "In addition to providing unbreachable security to institutions of national importance, the @CISFHQrs is today well-\u2026 https://t.co/qY8KpGS36q",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "CISFHQrs",
+                    "name": "CISF",
+                    "id": 789327837727559680,
+                    "id_str": "789327837727559680",
+                    "indices": [
+                        91,
+                        100
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/qY8KpGS36q",
+                    "expanded_url": "https://twitter.com/i/web/status/1634822369960423424",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1447949844,
+            "id_str": "1447949844",
+            "name": "Amit Shah",
+            "screen_name": "AmitShah",
+            "location": "",
+            "description": "Union Home Minister, Minister of Cooperation and MP, Gandhinagar Lok Sabha. https://t.co/NwLJxUXMnz",
+            "url": "https://t.co/o7Ew1vHqgV",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/o7Ew1vHqgV",
+                            "expanded_url": "http://www.amitshah.co.in",
+                            "display_url": "amitshah.co.in",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/NwLJxUXMnz",
+                            "expanded_url": "http://www.youtube.com/amitshahofficial",
+                            "display_url": "youtube.com/amitshahoffici\u2026",
+                            "indices": [
+                                76,
+                                99
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 32508607,
+            "friends_count": 316,
+            "listed_count": 6276,
+            "created_at": "Wed May 22 04:43:54 +0000 2013",
+            "favourites_count": 86,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 19210,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1570349833277546497/I-SK-za7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1570349833277546497/I-SK-za7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1447949844/1664299884",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1170,
+        "favorite_count": 4406,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 2267,
+    "favorite_count": 7976,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}
