@@ -154,7 +154,6 @@ def graph():
     plt.bar(y_pos, height)
     plt.xticks(y_pos, bars)
     plt.show()
-
     
 font = ('calibri', 16, 'bold')
 title = Label(main, text='Spammer Detection and Fake User Identification on Social Networks')
