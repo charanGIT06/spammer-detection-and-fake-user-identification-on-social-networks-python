@@ -1,143 +1,47 @@
 {
-    "created_at": "Sun Mar 12 16:04:43 +0000 2023",
-    "id": 1634948542279172098,
-    "id_str": "1634948542279172098",
-    "text": "Here is how rapidly expanding physical and social infrastructure is positively impacting lives. https://t.co/lOHkaKfulN",
+    "created_at": "Fri Mar 10 04:27:31 +0000 2023",
+    "id": 1634048311517667329,
+    "id_str": "1634048311517667329",
+    "text": "@concept_central They'd have to fix AirDrop first",
     "truncated": false,
     "entities": {
         "hashtags": [],
         "symbols": [],
-        "user_mentions": [],
-        "urls": [],
-        "media": [
+        "user_mentions": [
             {
-                "id": 1634895630693695488,
-                "id_str": "1634895630693695488",
+                "screen_name": "concept_central",
+                "name": "Shea",
+                "id": 1416159980282007552,
+                "id_str": "1416159980282007552",
                 "indices": [
-                    96,
-                    119
-                ],
-                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1634895630693695488/img/JN6dABmYjU0no6Te.jpg",
-                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1634895630693695488/img/JN6dABmYjU0no6Te.jpg",
-                "url": "https://t.co/lOHkaKfulN",
-                "display_url": "pic.twitter.com/lOHkaKfulN",
-                "expanded_url": "https://twitter.com/narendramodi/status/1634948542279172098/video/1",
-                "type": "photo",
-                "sizes": {
-                    "thumb": {
-                        "w": 150,
-                        "h": 150,
-                        "resize": "crop"
-                    },
-                    "large": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    },
-                    "medium": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    },
-                    "small": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    }
-                }
+                    0,
+                    16
+                ]
             }
-        ]
+        ],
+        "urls": []
     },
-    "extended_entities": {
-        "media": [
-            {
-                "id": 1634895630693695488,
-                "id_str": "1634895630693695488",
-                "indices": [
-                    96,
-                    119
-                ],
-                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1634895630693695488/img/JN6dABmYjU0no6Te.jpg",
-                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1634895630693695488/img/JN6dABmYjU0no6Te.jpg",
-                "url": "https://t.co/lOHkaKfulN",
-                "display_url": "pic.twitter.com/lOHkaKfulN",
-                "expanded_url": "https://twitter.com/narendramodi/status/1634948542279172098/video/1",
-                "type": "video",
-                "sizes": {
-                    "thumb": {
-                        "w": 150,
-                        "h": 150,
-                        "resize": "crop"
-                    },
-                    "large": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    },
-                    "medium": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    },
-                    "small": {
-                        "w": 640,
-                        "h": 360,
-                        "resize": "fit"
-                    }
-                },
-                "video_info": {
-                    "aspect_ratio": [
-                        16,
-                        9
-                    ],
-                    "duration_millis": 317022,
-                    "variants": [
-                        {
-                            "content_type": "application/x-mpegURL",
-                            "url": "https://video.twimg.com/amplify_video/1634895630693695488/pl/KOD-nt_enq2vztnM.m3u8?tag=16&container=fmp4"
-                        },
-                        {
-                            "bitrate": 288000,
-                            "content_type": "video/mp4",
-                            "url": "https://video.twimg.com/amplify_video/1634895630693695488/vid/480x270/AZ8XWA-oWu0BL1cH.mp4?tag=16"
-                        },
-                        {
-                            "bitrate": 832000,
-                            "content_type": "video/mp4",
-                            "url": "https://video.twimg.com/amplify_video/1634895630693695488/vid/640x360/E7JYJTAb3Xe1552h.mp4?tag=16"
-                        }
-                    ]
-                },
-                "additional_media_info": {
-                    "title": "",
-                    "description": "",
-                    "embeddable": true,
-                    "monetizable": false
-                }
-            }
-        ]
-    },
-    "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1634040399911346177,
+    "in_reply_to_status_id_str": "1634040399911346177",
+    "in_reply_to_user_id": 1416159980282007552,
+    "in_reply_to_user_id_str": "1416159980282007552",
+    "in_reply_to_screen_name": "concept_central",
     "user": {
-        "id": 18839785,
-        "id_str": "18839785",
-        "name": "Narendra Modi",
-        "screen_name": "narendramodi",
-        "location": "India",
-        "description": "Prime Minister of India",
-        "url": "https://t.co/m2qxixbpwb",
+        "id": 29873662,
+        "id_str": "29873662",
+        "name": "Marques Brownlee",
+        "screen_name": "MKBHD",
+        "location": "NYC",
+        "description": "Web Video Producer | \u22c8 | Pro Ultimate Frisbee Player | Host of @WVFRM @TheStudio",
+        "url": "https://t.co/ZktXu6nIYz",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/m2qxixbpwb",
-                        "expanded_url": "http://www.narendramodi.in",
-                        "display_url": "narendramodi.in",
+                        "url": "https://t.co/ZktXu6nIYz",
+                        "expanded_url": "http://MKBHD.com",
+                        "display_url": "MKBHD.com",
                         "indices": [
                             0,
                             23
@@ -150,38 +54,38 @@
             }
         },
         "protected": false,
-        "followers_count": 87100326,
-        "friends_count": 2527,
-        "listed_count": 29665,
-        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
-        "favourites_count": 0,
+        "followers_count": 6053414,
+        "friends_count": 445,
+        "listed_count": 14393,
+        "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+        "favourites_count": 28374,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": false,
+        "geo_enabled": true,
         "verified": true,
-        "statuses_count": 35834,
+        "statuses_count": 53916,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "F4EDD4",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
-        "profile_link_color": "4E7096",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "D5DFED",
-        "profile_text_color": "233863",
-        "profile_use_background_image": true,
+        "profile_background_color": "EDECE9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1642786557",
+        "profile_link_color": "6C4585",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
         "has_extended_profile": true,
         "default_profile": false,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
-        "notifications": false,
+        "notifications": true,
         "translator_type": "regular",
         "withheld_in_countries": []
     },
@@ -190,10 +94,9 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 2272,
-    "favorite_count": 7424,
+    "retweet_count": 6,
+    "favorite_count": 2176,
     "favorited": false,
     "retweeted": false,
-    "possibly_sensitive": false,
     "lang": "en"
 }

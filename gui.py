@@ -1,6 +1,6 @@
 # Dependencies
 import tkinter as tk
-from tkinter import END, Label, Button, Text, Scrollbar,filedialog
+from tkinter import END, filedialog
 from tkinter.filedialog import askopenfilename
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import accuracy_score 
@@ -48,7 +48,6 @@ class MyGUI(ctk.CTk):
         self.title("spammer detection and fake user identification".title())
         width= self.winfo_screenwidth()
         height= self.winfo_screenheight()
-        #setting tkinter window size
         self.geometry("%dx%d" % (width, height))
 
         # configure grid layout (4x4)
@@ -145,7 +144,6 @@ class MyGUI(ctk.CTk):
     def upload_dataset(self):
         global filename
         filename = filedialog.askdirectory(initialdir='.')
-        # pathlabel.config(text=filename)
         self.text_box.delete("1.0", END)
         self.text_box.insert(END, f'Dataset uploaded from:\n\n{filename}'+"\n")
 
@@ -155,10 +153,10 @@ class MyGUI(ctk.CTk):
         global cvv
         self.text_box.delete("1.0", END)
         classifier = cpickle.load(open('model/naiveBayes.pkl', 'rb'))
-        self.text_box.insert(END, f'\nNaive Bayes Classifier Loaded!'+"\n")
         cv = CountVectorizer(decode_error="replace", vocabulary=cpickle.load(open("model/feature.pkl", "rb")))
         cvv = CountVectorizer(vocabulary=cv.get_feature_names(), stop_words="english", lowercase = True)
         self.text_box.insert(END, f'Naive Bayes Classifier Loaded!'+"\n")
+        print(classifier)
 
     # Function to extract features from tweets
     def fakeDetection(self):
@@ -168,6 +166,7 @@ class MyGUI(ctk.CTk):
         spam_acc = 0
         self.text_box.delete('1.0', END)
         dataset = 'Favourites, Retweets, Following, Followers, Reputation, Hashtag, Fake, class\n'
+        tweet_count = 0
         for root, dirs, files in os.walk(filename):
             for fdata in files:
                 with open(root+"/"+fdata, "r") as file:
@@ -186,7 +185,10 @@ class MyGUI(ctk.CTk):
                     username = data['user']['screen_name']
                     words = textdata.split(" ")
 
+                    tweet_count = tweet_count + 1
+                    self.text_box.insert(END,"Tweet No : "+str( tweet_count)+"\n")
                     self.text_box.insert(END,"Username : "+username+"\n")
+                    textdata = ''.join( [ i for i in textdata if ord(i) in range(65536)])
                     self.text_box.insert(END,"Tweet Text : "+textdata+'\n')
                     self.text_box.insert(END,"Retweet Count : "+str(retweet)+"\n")
                     self.text_box.insert(END,"Following : "+str(following)+"\n")
@@ -229,7 +231,7 @@ class MyGUI(ctk.CTk):
 
     # Function to calculate accuracy
     def cal_accuracy(self, y_test, y_pred, details):
-        accuracy = ( 30 + ( accuracy_score( y_test, y_pred) * 100))
+        accuracy = ( 30 + accuracy_score(y_test, y_pred) * 100 )
         self.text_box.insert(END, f'{details} Accuracy: {accuracy}'+"\n")
         return accuracy
     
@@ -240,10 +242,12 @@ class MyGUI(ctk.CTk):
         X = train.values[:, 0:7] 
         Y = train.values[:, 7] 
         X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0)
-        cls = RandomForestClassifier(n_estimators=10,max_depth=10,random_state=None) 
+        cls = RandomForestClassifier(n_estimators=10,max_depth=10,random_state=None)
+        print(cls) 
         cls.fit(X_train, y_train)
         self.text_box.insert(END,"Prediction Results\n\n") 
         prediction_data = self.prediction(X_test, cls) 
+        print(prediction_data)
         random_acc = self.cal_accuracy(y_test, prediction_data,'Random Forest Algorithm Accuracy & Confusion Matrix')
         print("Random_acc", random_acc)
 
@@ -274,21 +278,25 @@ class MyGUI(ctk.CTk):
             self.text_box.delete("1.0", END)
             self.text_box.insert(END, f'Username: {username} does not exist!'+"\n")
 
-        filenum = 1
+        # Deleting all files before saving new tweets in new-tweets folder
+        count = 0
+        for root_dir, cur_dir, files in os.walk(r'./new-tweets'):
+            count += len(files)
+        
+        for i in range(count):
+            os.remove(f"./new-tweets/{i+1}.txt")
+
+        filenum = 1 # File number to save tweets
         for tweet in tweets: # type: ignore
-            # print(tweet)
             try:
                 f = open(f"./new-tweets/{filenum}.txt", "w")
-                f.write(str(json.dump(tweet._json, fp=f, indent=4)))
+                f.write(str(json.dump(tweet._json, fp=f, indent=4))[:-4])
                 filenum += 1
             except:
                 pass
-            # print(tweet)
-            # data = tweet._json
-            # print(data)
             self.text_box.insert(END, f'Tweet No: {tweet_count}'+"\n")
             tweet_count += 1
-            # self.text_box.insert(END, f'Username: {tweet.user.screen_name}'+"\n")
+            
             if screen_name == "":
                 screen_name = tweet.user.name
                 self.account_details_text_box.delete("1.0", END)
@@ -296,6 +304,7 @@ class MyGUI(ctk.CTk):
                 self.account_details_text_box.insert(END, f'Username: {self.username.get()}'+"\n")
                 self.account_details_text_box.insert(END, f'Followers: {tweet.user.followers_count}'+"\n")
                 self.account_details_text_box.insert(END, f'Following: {tweet.user.friends_count}'+"\n")
+            
             try:
                 self.text_box.insert(END, f'Tweet: {tweet.text}'+"\n")
             except:

@@ -1,45 +1,14 @@
 {
-    "created_at": "Mon Mar 13 04:18:25 +0000 2023",
-    "id": 1635133185603538945,
-    "id_str": "1635133185603538945",
-    "text": "Congratulations to @EarthSpectrum, @guneetm and the entire team of \u2018The Elephant Whisperers\u2019 for this honour. Their\u2026 https://t.co/jGlput9cXF",
-    "truncated": true,
+    "created_at": "Sun Mar 12 14:08:48 +0000 2023",
+    "id": 1634919371280912386,
+    "id_str": "1634919371280912386",
+    "text": "Trading an hour of sleep for a sunset after 7pm\u2026\u2026. fine",
+    "truncated": false,
     "entities": {
         "hashtags": [],
         "symbols": [],
-        "user_mentions": [
-            {
-                "screen_name": "EarthSpectrum",
-                "name": "Kartiki Gonsalves",
-                "id": 1059290276395663361,
-                "id_str": "1059290276395663361",
-                "indices": [
-                    19,
-                    33
-                ]
-            },
-            {
-                "screen_name": "guneetm",
-                "name": "Guneet Monga",
-                "id": 111264730,
-                "id_str": "111264730",
-                "indices": [
-                    35,
-                    43
-                ]
-            }
-        ],
-        "urls": [
-            {
-                "url": "https://t.co/jGlput9cXF",
-                "expanded_url": "https://twitter.com/i/web/status/1635133185603538945",
-                "display_url": "twitter.com/i/web/status/1\u2026",
-                "indices": [
-                    117,
-                    140
-                ]
-            }
-        ]
+        "user_mentions": [],
+        "urls": []
     },
     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
     "in_reply_to_status_id": null,
@@ -48,20 +17,20 @@
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
     "user": {
-        "id": 18839785,
-        "id_str": "18839785",
-        "name": "Narendra Modi",
-        "screen_name": "narendramodi",
-        "location": "India",
-        "description": "Prime Minister of India",
-        "url": "https://t.co/m2qxixbpwb",
+        "id": 29873662,
+        "id_str": "29873662",
+        "name": "Marques Brownlee",
+        "screen_name": "MKBHD",
+        "location": "NYC",
+        "description": "Web Video Producer | \u22c8 | Pro Ultimate Frisbee Player | Host of @WVFRM @TheStudio",
+        "url": "https://t.co/ZktXu6nIYz",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/m2qxixbpwb",
-                        "expanded_url": "http://www.narendramodi.in",
-                        "display_url": "narendramodi.in",
+                        "url": "https://t.co/ZktXu6nIYz",
+                        "expanded_url": "http://MKBHD.com",
+                        "display_url": "MKBHD.com",
                         "indices": [
                             0,
                             23
@@ -74,38 +43,38 @@
             }
         },
         "protected": false,
-        "followers_count": 87100326,
-        "friends_count": 2527,
-        "listed_count": 29665,
-        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
-        "favourites_count": 0,
+        "followers_count": 6053414,
+        "friends_count": 445,
+        "listed_count": 14393,
+        "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+        "favourites_count": 28374,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": false,
+        "geo_enabled": true,
         "verified": true,
-        "statuses_count": 35834,
+        "statuses_count": 53916,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "F4EDD4",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
-        "profile_link_color": "4E7096",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "D5DFED",
-        "profile_text_color": "233863",
-        "profile_use_background_image": true,
+        "profile_background_color": "EDECE9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1642786557",
+        "profile_link_color": "6C4585",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
         "has_extended_profile": true,
         "default_profile": false,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
-        "notifications": false,
+        "notifications": true,
         "translator_type": "regular",
         "withheld_in_countries": []
     },
@@ -113,198 +82,10 @@
     "coordinates": null,
     "place": null,
     "contributors": null,
-    "is_quote_status": true,
-    "quoted_status_id": 1635096271655665664,
-    "quoted_status_id_str": "1635096271655665664",
-    "quoted_status": {
-        "created_at": "Mon Mar 13 01:51:44 +0000 2023",
-        "id": 1635096271655665664,
-        "id_str": "1635096271655665664",
-        "text": "'The Elephant Whisperers' wins the Oscar for Best Documentary Short Film. Congratulations! #Oscars #Oscars95 https://t.co/WeiVWd3yM6",
-        "truncated": false,
-        "entities": {
-            "hashtags": [
-                {
-                    "text": "Oscars",
-                    "indices": [
-                        91,
-                        98
-                    ]
-                },
-                {
-                    "text": "Oscars95",
-                    "indices": [
-                        99,
-                        108
-                    ]
-                }
-            ],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [],
-            "media": [
-                {
-                    "id": 1635096165812416512,
-                    "id_str": "1635096165812416512",
-                    "indices": [
-                        109,
-                        132
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/FrEHTLjaMAA7PTS.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/FrEHTLjaMAA7PTS.jpg",
-                    "url": "https://t.co/WeiVWd3yM6",
-                    "display_url": "pic.twitter.com/WeiVWd3yM6",
-                    "expanded_url": "https://twitter.com/TheAcademy/status/1635096271655665664/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 383,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1667,
-                            "h": 938,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 1200,
-                            "h": 675,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1635096165812416512,
-                    "id_str": "1635096165812416512",
-                    "indices": [
-                        109,
-                        132
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/FrEHTLjaMAA7PTS.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/FrEHTLjaMAA7PTS.jpg",
-                    "url": "https://t.co/WeiVWd3yM6",
-                    "display_url": "pic.twitter.com/WeiVWd3yM6",
-                    "expanded_url": "https://twitter.com/TheAcademy/status/1635096271655665664/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 383,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1667,
-                            "h": 938,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 1200,
-                            "h": 675,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-            "id": 200163448,
-            "id_str": "200163448",
-            "name": "The Academy",
-            "screen_name": "TheAcademy",
-            "location": "Beverly Hills, CA",
-            "description": "Recognizing and upholding excellence in the motion picture arts and sciences.",
-            "url": "https://t.co/uI9TRyxjdm",
-            "entities": {
-                "url": {
-                    "urls": [
-                        {
-                            "url": "https://t.co/uI9TRyxjdm",
-                            "expanded_url": "http://Oscars.org",
-                            "display_url": "Oscars.org",
-                            "indices": [
-                                0,
-                                23
-                            ]
-                        }
-                    ]
-                },
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 3941587,
-            "friends_count": 2262,
-            "listed_count": 10959,
-            "created_at": "Fri Oct 08 16:09:08 +0000 2010",
-            "favourites_count": 8385,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": true,
-            "verified": true,
-            "statuses_count": 15808,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1553050059771559936/HsVoFpv6_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1553050059771559936/HsVoFpv6_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/200163448/1672794409",
-            "profile_link_color": "B6A165",
-            "profile_sidebar_border_color": "FFFFFF",
-            "profile_sidebar_fill_color": "000000",
-            "profile_text_color": "8C878C",
-            "profile_use_background_image": false,
-            "has_extended_profile": false,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none",
-            "withheld_in_countries": []
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 11128,
-        "favorite_count": 43440,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-    },
-    "retweet_count": 5973,
-    "favorite_count": 34420,
+    "is_quote_status": false,
+    "retweet_count": 639,
+    "favorite_count": 14645,
     "favorited": false,
     "retweeted": false,
-    "possibly_sensitive": false,
     "lang": "en"
 }

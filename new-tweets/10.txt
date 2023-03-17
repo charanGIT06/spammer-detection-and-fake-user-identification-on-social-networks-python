@@ -1,46 +1,57 @@
 {
-    "created_at": "Mon Mar 13 04:27:05 +0000 2023",
-    "id": 1635135367300145152,
-    "id_str": "1635135367300145152",
-    "text": "A part of our efforts to strengthen the MSME sector, which is a key pillar of India\u2019s economic growth.\u2026 https://t.co/14eLZZiSLQ",
-    "truncated": true,
+    "created_at": "Wed Mar 15 17:37:26 +0000 2023",
+    "id": 1636059039036473344,
+    "id_str": "1636059039036473344",
+    "text": "@MrLucrative13 @utsavtechie Been saying this for years \ud83d\udc4d\ud83c\udffe",
+    "truncated": false,
     "entities": {
         "hashtags": [],
         "symbols": [],
-        "user_mentions": [],
-        "urls": [
+        "user_mentions": [
             {
-                "url": "https://t.co/14eLZZiSLQ",
-                "expanded_url": "https://twitter.com/i/web/status/1635135367300145152",
-                "display_url": "twitter.com/i/web/status/1\u2026",
+                "screen_name": "MrLucrative13",
+                "name": "Karan Gharde",
+                "id": 870181037103607809,
+                "id_str": "870181037103607809",
                 "indices": [
-                    104,
-                    127
+                    0,
+                    14
+                ]
+            },
+            {
+                "screen_name": "utsavtechie",
+                "name": "Utsav Techie",
+                "id": 3138826796,
+                "id_str": "3138826796",
+                "indices": [
+                    15,
+                    27
                 ]
             }
-        ]
+        ],
+        "urls": []
     },
-    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1636022844898377730,
+    "in_reply_to_status_id_str": "1636022844898377730",
+    "in_reply_to_user_id": 870181037103607809,
+    "in_reply_to_user_id_str": "870181037103607809",
+    "in_reply_to_screen_name": "MrLucrative13",
     "user": {
-        "id": 18839785,
-        "id_str": "18839785",
-        "name": "Narendra Modi",
-        "screen_name": "narendramodi",
-        "location": "India",
-        "description": "Prime Minister of India",
-        "url": "https://t.co/m2qxixbpwb",
+        "id": 29873662,
+        "id_str": "29873662",
+        "name": "Marques Brownlee",
+        "screen_name": "MKBHD",
+        "location": "NYC",
+        "description": "Web Video Producer | \u22c8 | Pro Ultimate Frisbee Player | Host of @WVFRM @TheStudio",
+        "url": "https://t.co/ZktXu6nIYz",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/m2qxixbpwb",
-                        "expanded_url": "http://www.narendramodi.in",
-                        "display_url": "narendramodi.in",
+                        "url": "https://t.co/ZktXu6nIYz",
+                        "expanded_url": "http://MKBHD.com",
+                        "display_url": "MKBHD.com",
                         "indices": [
                             0,
                             23
@@ -53,38 +64,38 @@
             }
         },
         "protected": false,
-        "followers_count": 87100326,
-        "friends_count": 2527,
-        "listed_count": 29665,
-        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
-        "favourites_count": 0,
+        "followers_count": 6053414,
+        "friends_count": 445,
+        "listed_count": 14393,
+        "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+        "favourites_count": 28374,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": false,
+        "geo_enabled": true,
         "verified": true,
-        "statuses_count": 35834,
+        "statuses_count": 53916,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "F4EDD4",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
-        "profile_link_color": "4E7096",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "D5DFED",
-        "profile_text_color": "233863",
-        "profile_use_background_image": true,
+        "profile_background_color": "EDECE9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1468001914302390278/B_Xv_8gu_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1642786557",
+        "profile_link_color": "6C4585",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
         "has_extended_profile": true,
         "default_profile": false,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
-        "notifications": false,
+        "notifications": true,
         "translator_type": "regular",
         "withheld_in_countries": []
     },
@@ -92,115 +103,10 @@
     "coordinates": null,
     "place": null,
     "contributors": null,
-    "is_quote_status": true,
-    "quoted_status_id": 1634325056435417088,
-    "quoted_status_id_str": "1634325056435417088",
-    "quoted_status": {
-        "created_at": "Fri Mar 10 22:47:12 +0000 2023",
-        "id": 1634325056435417088,
-        "id_str": "1634325056435417088",
-        "text": "Launched MSME Competitive (LEAN) Scheme under MSME Champions Scheme. This scheme has potential to become a national\u2026 https://t.co/bjzrYJSbkt",
-        "truncated": true,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [
-                {
-                    "url": "https://t.co/bjzrYJSbkt",
-                    "expanded_url": "https://twitter.com/i/web/status/1634325056435417088",
-                    "display_url": "twitter.com/i/web/status/1\u2026",
-                    "indices": [
-                        117,
-                        140
-                    ]
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-            "id": 3101104742,
-            "id_str": "3101104742",
-            "name": "Narayan Rane",
-            "screen_name": "MeNarayanRane",
-            "location": "New Delhi, India",
-            "description": "Minister of Micro, Small and Medium Enterprises (MSME) Government Of India",
-            "url": "https://t.co/MRmsOattZ9",
-            "entities": {
-                "url": {
-                    "urls": [
-                        {
-                            "url": "https://t.co/MRmsOattZ9",
-                            "expanded_url": "http://menarayanrane.com",
-                            "display_url": "menarayanrane.com",
-                            "indices": [
-                                0,
-                                23
-                            ]
-                        }
-                    ]
-                },
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 193121,
-            "friends_count": 34,
-            "listed_count": 162,
-            "created_at": "Sat Mar 21 06:44:20 +0000 2015",
-            "favourites_count": 231,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 5292,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1627609117702647808/y6TcOy-p_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1627609117702647808/y6TcOy-p_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3101104742/1662353272",
-            "profile_link_color": "1DA1F2",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": true,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none",
-            "withheld_in_countries": []
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 73,
-        "favorite_count": 286,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-    },
-    "retweet_count": 2251,
-    "favorite_count": 7835,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 80,
     "favorited": false,
     "retweeted": false,
-    "possibly_sensitive": false,
     "lang": "en"
 }

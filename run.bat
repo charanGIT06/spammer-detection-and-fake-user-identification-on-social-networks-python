@@ -1,2 +1,2 @@
-python SpamDetection.py
+python gui.py
 pause
