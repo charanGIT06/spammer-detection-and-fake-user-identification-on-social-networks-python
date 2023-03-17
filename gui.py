@@ -1,8 +1,10 @@
 # Dependencies
 # GUI
 import tkinter as tk
-from tkinter import END, filedialog
+from tkinter import END, filedialog, Scrollbar
 from tkinter.filedialog import askopenfilename
+from PIL import Image, ImageTk
+from urllib.request import urlopen
 import customtkinter as ctk
 # Machine Learning
 from sklearn.model_selection import train_test_split 
@@ -90,6 +92,7 @@ class MyGUI(ctk.CTk):
         # Graph Button
         self.Graph_button = ctk.CTkButton(self.sidebar_frame, text="Graph", font=("Arial", 20), corner_radius=20, command=self.graph)
         self.Graph_button.grid(row=5, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+
 
         # # Test with Live Data Label
         # self.test_label = ctk.CTkLabel(self.sidebar_frame, text="Test", font=("Arial", 20))
@@ -256,7 +259,7 @@ class MyGUI(ctk.CTk):
         self.text_box.delete("1.0", END)
         for i in range(len(X_test)):
             print("X=%s, Predicted=%s" % (X_test[i], y_pred[i]))
-            self.text_box.insert(END, "X=%s, Predicted=%s\n" % (X_test[i], y_pred[i]))
+            # self.text_box.insert(END, "X=%s, Predicted=%s\n" % (X_test[i], y_pred[i]))
         return y_pred 
 
     # Function to calculate accuracy
@@ -274,13 +277,13 @@ class MyGUI(ctk.CTk):
         Y = train.values[:, 7] 
         X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0)
         cls = RandomForestClassifier(n_estimators=10,max_depth=10,random_state=None)
-        print(cls) 
+        # print(cls) 
         cls.fit(X_train, y_train)
         self.text_box.insert(END,"Prediction Results\n\n") 
         prediction_data = self.prediction(X_test, cls) 
-        print(prediction_data)
+        # print(prediction_data)
         random_acc = self.cal_accuracy(y_test, prediction_data,'Random Forest Algorithm Accuracy & Confusion Matrix')
-        print("Random_acc", random_acc)
+        # print("Random_acc", random_acc)
 
     # Function to plot graph
     def graph(self):
@@ -339,11 +342,9 @@ class MyGUI(ctk.CTk):
                 self.account_details_text_box.insert(END, f'Followers: {tweet.user.followers_count}'+"\n")
                 self.account_details_text_box.insert(END, f'Following: {tweet.user.friends_count}'+"\n")
 
-            if tweet.user.verified == True:
+            if tweet.user.verified == True and verified_status == False:
                 self.account_details_text_box.insert(END, f'\nAccount is Verified.')
                 verified_status = True
-            else:
-                self.account_details_text_box.insert(END, f'\nAccount is not Verified.')
             
             try:
                 self.text_box.insert(END, f'Tweet: {tweet.text}'+"\n")
@@ -352,13 +353,24 @@ class MyGUI(ctk.CTk):
             self.text_box.insert(END, f'Retweet Count: {tweet.retweet_count}'+"\n")
             self.text_box.insert(END, f'Favorite Count: {tweet.favorite_count}'+"\n\n")
 
+        # Twitter profile Image
+        imageUrl = "" or tweet.user.profile_image_url[:-11] + ".jpg"
+        u = urlopen(imageUrl)
+        raw_data = u.read()
+        u.close()
+
+        photo = ImageTk.PhotoImage(data=raw_data)
+        label = ctk.CTkLabel(self.sidebar_frame, text=" ", image=photo)
+        label.image = photo
+        label.grid(row=6, column=0, padx=40, pady=(30, 10))
+
     # Function to clear text boxes
     def clear_text(self):
-        self.account_details_text_box.delete("1.0", END)
-        self.tweet_count.delete("1.0", END)
         self.username.delete("1.0", END)
+        self.tweet_count.delete("1.0", END)
+        self.account_details_text_box.delete("1.0", END)
         self.text_box.delete("1.0", END)
-        self.text_box.insert('1.0', 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
+        self.text_box.insert("1.0", 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
 
 # Create GUI
 MyGUI()
