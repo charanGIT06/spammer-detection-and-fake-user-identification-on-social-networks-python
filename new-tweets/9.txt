@@ -1,0 +1,222 @@
+{
+    "created_at": "Fri Mar 17 03:23:57 +0000 2023",
+    "id": 1636569028520017923,
+    "id_str": "1636569028520017923",
+    "text": "The #MatuaMahaMela2023 is an important event which showcases the vibrant culture of the Matua community. I would ur\u2026 https://t.co/ngwBGKtb4u",
+    "truncated": true,
+    "entities": {
+        "hashtags": [
+            {
+                "text": "MatuaMahaMela2023",
+                "indices": [
+                    4,
+                    22
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/ngwBGKtb4u",
+                "expanded_url": "https://twitter.com/i/web/status/1636569028520017923",
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "indices": [
+                    117,
+                    140
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87142428,
+        "friends_count": 2528,
+        "listed_count": 29672,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35850,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1636276873704673280,
+    "quoted_status_id_str": "1636276873704673280",
+    "quoted_status": {
+        "created_at": "Thu Mar 16 08:03:01 +0000 2023",
+        "id": 1636276873704673280,
+        "id_str": "1636276873704673280",
+        "text": "To experience religious divinity, harmony in diversity &amp; peace, visit Shreedham #Thakurnagar, Thakurbari, North 24\u2026 https://t.co/FqWjMJgxRU",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Thakurnagar",
+                    "indices": [
+                        84,
+                        96
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/FqWjMJgxRU",
+                    "expanded_url": "https://twitter.com/i/web/status/1636276873704673280",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        120,
+                        143
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1217509136318914560,
+            "id_str": "1217509136318914560",
+            "name": "Shantanu Thakur",
+            "screen_name": "Shantanu_bjp",
+            "location": "Thakurnagar, Bangaon, WB",
+            "description": "(Minister of State) Ministry of Ports, Shipping & Waterways, GoI | MP(@BJP4India), Bangaon Lok Sabha, WB | Sanghadhipati, All India Matua Mahasangha(@aimms_org)",
+            "url": "https://t.co/0fQVCxdw6Q",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/0fQVCxdw6Q",
+                            "expanded_url": "https://instagram.com/shantanuthakur_bjp?utm_medium=copy_link",
+                            "display_url": "instagram.com/shantanuthakur\u2026",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18286,
+            "friends_count": 363,
+            "listed_count": 41,
+            "created_at": "Wed Jan 15 18:12:48 +0000 2020",
+            "favourites_count": 28018,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 6958,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1566108343147835393/VPLhaTRH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1566108343147835393/VPLhaTRH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1217509136318914560/1671432356",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 676,
+        "favorite_count": 840,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 1948,
+    "favorite_count": 6194,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

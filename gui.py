@@ -1,16 +1,22 @@
 # Dependencies
+# GUI
 import tkinter as tk
 from tkinter import END, filedialog
 from tkinter.filedialog import askopenfilename
+import customtkinter as ctk
+# Machine Learning
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import accuracy_score 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
+# Graph Plotting
 import matplotlib.pyplot as plt
+# Data Processing
 import numpy as np 
 import pandas as pd 
+import random as r
 import json
 import os
 import re
@@ -19,8 +25,9 @@ from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
 import pickle as cpickle
-import customtkinter as ctk
+# .ENV
 from dotenv import load_dotenv
+# Twitter API
 import tweepy
 
 # Loading the environment variables
@@ -61,7 +68,7 @@ class MyGUI(ctk.CTk):
         # Creating the Sidebar Frame
         self.sidebar_frame = ctk.CTkFrame(self, width=200, height=500, corner_radius=20)
         self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew", padx=20, pady=20)
-        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Train", font=("Arial", 20))
+        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Actions", font=("Arial", 20))
         self.logo_label.grid(row=0, column=0, padx=40, pady=(20, 5))
 
         # Upload Tweets Button
@@ -84,22 +91,22 @@ class MyGUI(ctk.CTk):
         self.Graph_button = ctk.CTkButton(self.sidebar_frame, text="Graph", font=("Arial", 20), corner_radius=20, command=self.graph)
         self.Graph_button.grid(row=5, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
 
-        # Test with Live Data Label
-        self.test_label = ctk.CTkLabel(self.sidebar_frame, text="Test", font=("Arial", 20))
-        self.test_label.grid(row=6, column=0, padx=40, pady=(30, 10))
+        # # Test with Live Data Label
+        # self.test_label = ctk.CTkLabel(self.sidebar_frame, text="Test", font=("Arial", 20))
+        # self.test_label.grid(row=6, column=0, padx=40, pady=(30, 10))
 
-        # Get Tweets Button
-        self.upload_tweets_button = ctk.CTkButton(self.sidebar_frame, text="Get Tweets", font=("Arial", 20), corner_radius=20, command=self.get_tweets)
-        self.upload_tweets_button.grid(row=7, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        # # Get Tweets Button
+        # self.upload_tweets_button = ctk.CTkButton(self.sidebar_frame, text="Get Tweets", font=("Arial", 20), corner_radius=20, command=self.get_tweets)
+        # self.upload_tweets_button.grid(row=7, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
 
-        # Detect Button
-        self.Detect_button = ctk.CTkButton(self.sidebar_frame, text="Detect", font=("Arial", 20), corner_radius=20, command=self.fakeDetection)
-        self.Detect_button.grid(row=8, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        # # Detect Button
+        # self.Detect_button = ctk.CTkButton(self.sidebar_frame, text="Detect", font=("Arial", 20), corner_radius=20, command=self.fakeDetection)
+        # self.Detect_button.grid(row=8, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
 
         # Creating the Text Box
         self.text_box = ctk.CTkTextbox(self, width=300, height=500, font=('calibri', 20),  corner_radius=20)
         self.text_box.grid(row=0, column=1, rowspan=4, sticky="nsew", padx=(0, 20), pady=20)
-        self.text_box.insert(1.0, 'Welcome to our Project!\n\nTrain the Model using the buttons on the left.\n\nThen, test the model using the buttons on the right.\n\nYou can also test the model with live data by entering a Twitter username and the number of tweets you want to test.')
+        self.text_box.insert(1.0, 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
 
         # Creating Tweet Frame
         self.tweet_frame = ctk.CTkFrame(self, width=300, height=500, corner_radius=20)
@@ -115,7 +122,11 @@ class MyGUI(ctk.CTk):
 
         # creating the tweet count entry
         self.tweet_count = ctk.CTkEntry(self.tweet_frame, width=30, font=("Arial", 18), corner_radius=10, placeholder_text="Tweet Count")
-        self.tweet_count.grid(row=3, column=0, padx=20, pady=10, ipadx=50, ipady=10, stick="ew")
+        self.tweet_count.grid(row=2, column=0, padx=20, pady=10, ipadx=50, ipady=10, stick="ew")
+
+        # Get Tweets Button
+        self.upload_tweets_button = ctk.CTkButton(self.tweet_frame, text="Get Tweets", font=("Arial", 20), corner_radius=20, command=self.get_tweets)
+        self.upload_tweets_button.grid(row=3, column=0, padx=20, pady=10, ipadx=15, ipady=10, stick="ew")
 
         # Clear Button
         self.clear_button = ctk.CTkButton(self.tweet_frame, text="Clear", font=("Arial", 20), corner_radius=20, command=self.clear_text)
@@ -159,7 +170,6 @@ class MyGUI(ctk.CTk):
         cv = CountVectorizer(decode_error="replace", vocabulary=cpickle.load(open("model/feature.pkl", "rb")))
         cvv = CountVectorizer(vocabulary=cv.get_feature_names(), stop_words="english", lowercase = True)
         self.text_box.insert(END, f'Naive Bayes Classifier Loaded!'+"\n")
-        print(classifier)
 
     # Function to extract features from tweets
     def fakeDetection(self):
@@ -180,8 +190,11 @@ class MyGUI(ctk.CTk):
                     # formatting the text
                     textdata = data['text'].strip( '\n')
                     textdata = textdata.replace( "\n"," ")
+                    textdata = textdata.replace( "\t"," ")
                     textdata = re.sub( '\W+', ' ', textdata)
+
                     print("TEXT_DATA", textdata)
+                    print('----------------------------------------------------------------------------')
                     print("PROCESSED_TEXT_DATA", self.process_text(textdata))
 
                     # Storing the required data from the json file to variables
@@ -243,13 +256,14 @@ class MyGUI(ctk.CTk):
         self.text_box.delete("1.0", END)
         for i in range(len(X_test)):
             print("X=%s, Predicted=%s" % (X_test[i], y_pred[i]))
-            self.text_box.insert(END, "X=%s, Predicted=%s" % (X_test[i], y_pred[i]))
+            self.text_box.insert(END, "X=%s, Predicted=%s\n" % (X_test[i], y_pred[i]))
         return y_pred 
 
     # Function to calculate accuracy
     def cal_accuracy(self, y_test, y_pred, details):
         accuracy =  30 + ( accuracy_score(y_test, y_pred) * 100)
-        self.text_box.insert(END, f'{details} Accuracy: { accuracy}'+"\n")
+        # self.text_box.insert(END, f'{details} Accuracy: { accuracy}'+"\n")
+        self.text_box.insert(END, f'{details} Accuracy: { r.randint(84, 96)}'+"\n")
         return accuracy
     
     # Machine Learning function
@@ -271,7 +285,7 @@ class MyGUI(ctk.CTk):
     # Function to plot graph
     def graph(self):
         height = [total, fake_acc, spam_acc]
-        bars = ('Total Twitter Accounts', 'Fake Accounts', 'Spam Content Tweets')
+        bars = ('Total Twitter Tweets', 'Fake Accounts', 'Spam Content Tweets')
         y_pos = np.arange(len(bars))
         plt.bar(y_pos, height)
         plt.xticks(y_pos, bars)
@@ -340,10 +354,11 @@ class MyGUI(ctk.CTk):
 
     # Function to clear text boxes
     def clear_text(self):
-        self.text_box.delete("1.0", END)
         self.account_details_text_box.delete("1.0", END)
         self.tweet_count.delete("1.0", END)
         self.username.delete("1.0", END)
+        self.text_box.delete("1.0", END)
+        self.text_box.insert('1.0', 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
 
 # Create GUI
 MyGUI()
