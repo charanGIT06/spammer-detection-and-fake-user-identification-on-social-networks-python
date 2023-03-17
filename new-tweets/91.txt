@@ -1,0 +1,206 @@
+{
+    "created_at": "Mon Mar 06 13:22:29 +0000 2023",
+    "id": 1632733390045577217,
+    "id_str": "1632733390045577217",
+    "text": "Great for commerce and connectivity. https://t.co/qxV2jwKz9r",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/qxV2jwKz9r",
+                "expanded_url": "https://twitter.com/RailMinIndia/status/1632698623526948866",
+                "display_url": "twitter.com/RailMinIndia/s\u2026",
+                "indices": [
+                    37,
+                    60
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87138240,
+        "friends_count": 2526,
+        "listed_count": 29671,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35844,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1632698623526948866,
+    "quoted_status_id_str": "1632698623526948866",
+    "quoted_status": {
+        "created_at": "Mon Mar 06 11:04:20 +0000 2023",
+        "id": 1632698623526948866,
+        "id_str": "1632698623526948866",
+        "text": "Ahmedabad-Mahesana (64.27km) Gauge conversion Project\n\n\ud83e\ude99 \u20b9 620 Cr.\n\ud83d\udcc8100% Completed and Operational\n\nThis project wi\u2026 https://t.co/n5uGc2xEBc",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/n5uGc2xEBc",
+                    "expanded_url": "https://twitter.com/i/web/status/1632698623526948866",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2602959463,
+            "id_str": "2602959463",
+            "name": "Ministry of Railways",
+            "screen_name": "RailMinIndia",
+            "location": "New Delhi, India",
+            "description": "Official Account of the Ministry of Railways, Government of India.",
+            "url": "https://t.co/4eap2OBi1L",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/4eap2OBi1L",
+                            "expanded_url": "http://www.indianrailways.gov.in/",
+                            "display_url": "indianrailways.gov.in",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 7804974,
+            "friends_count": 276,
+            "listed_count": 3063,
+            "created_at": "Fri Jul 04 06:41:55 +0000 2014",
+            "favourites_count": 1635,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 679352,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1569567411963314176/S8mUUK-i_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1569567411963314176/S8mUUK-i_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2602959463/1679051955",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 517,
+        "favorite_count": 2094,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 2463,
+    "favorite_count": 8955,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

@@ -1,0 +1,305 @@
+{
+    "created_at": "Wed Mar 08 09:44:46 +0000 2023",
+    "id": 1633403375420317696,
+    "id_str": "1633403375420317696",
+    "text": "India eagerly awaits your arrival! Looking forward to productive deliberations to further the India-Australia frien\u2026 https://t.co/Q8aE9bAuIG",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/Q8aE9bAuIG",
+                "expanded_url": "https://twitter.com/i/web/status/1633403375420317696",
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "indices": [
+                    117,
+                    140
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87138240,
+        "friends_count": 2526,
+        "listed_count": 29671,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35844,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1633269866894598144,
+    "quoted_status_id_str": "1633269866894598144",
+    "quoted_status": {
+        "created_at": "Wed Mar 08 00:54:15 +0000 2023",
+        "id": 1633269866894598144,
+        "id_str": "1633269866894598144",
+        "text": "Today I\u2019m bringing a delegation of ministers and business leaders to India. https://t.co/XatHeg51l0",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1633269810070163456,
+                    "id_str": "1633269810070163456",
+                    "indices": [
+                        76,
+                        99
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1633269810070163456/pu/img/E8sV_OeXkdEuK6bL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1633269810070163456/pu/img/E8sV_OeXkdEuK6bL.jpg",
+                    "url": "https://t.co/XatHeg51l0",
+                    "display_url": "pic.twitter.com/XatHeg51l0",
+                    "expanded_url": "https://twitter.com/AlboMP/status/1633269866894598144/video/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 383,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 720,
+                            "h": 1280,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1633269810070163456,
+                    "id_str": "1633269810070163456",
+                    "indices": [
+                        76,
+                        99
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1633269810070163456/pu/img/E8sV_OeXkdEuK6bL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1633269810070163456/pu/img/E8sV_OeXkdEuK6bL.jpg",
+                    "url": "https://t.co/XatHeg51l0",
+                    "display_url": "pic.twitter.com/XatHeg51l0",
+                    "expanded_url": "https://twitter.com/AlboMP/status/1633269866894598144/video/1",
+                    "type": "video",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 383,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 720,
+                            "h": 1280,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    },
+                    "video_info": {
+                        "aspect_ratio": [
+                            9,
+                            16
+                        ],
+                        "duration_millis": 7233,
+                        "variants": [
+                            {
+                                "bitrate": 632000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1633269810070163456/pu/vid/320x568/IB5_GcesXLL3buv1.mp4?tag=12"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/1633269810070163456/pu/pl/CBmDajuxNMm5nMUB.m3u8?tag=12&container=fmp4"
+                            },
+                            {
+                                "bitrate": 2176000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1633269810070163456/pu/vid/720x1280/OCKNwz4hc6VBTICN.mp4?tag=12"
+                            },
+                            {
+                                "bitrate": 950000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1633269810070163456/pu/vid/480x852/t5rEYLPlw_VIh0p7.mp4?tag=12"
+                            }
+                        ]
+                    },
+                    "additional_media_info": {
+                        "monetizable": false
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 254515782,
+            "id_str": "254515782",
+            "name": "Anthony Albanese",
+            "screen_name": "AlboMP",
+            "location": "Canberra, Australia",
+            "description": "Prime Minister of Australia. Member for Grayndler. Authorised by Anthony Albanese, ALP, Canberra.",
+            "url": "https://t.co/WtEa8PFnlP",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WtEa8PFnlP",
+                            "expanded_url": "http://www.anthonyalbanese.com.au/",
+                            "display_url": "anthonyalbanese.com.au",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 643142,
+            "friends_count": 2959,
+            "listed_count": 2288,
+            "created_at": "Sat Feb 19 12:47:33 +0000 2011",
+            "favourites_count": 2702,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 19241,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1528580805626560512/k9qA_eF0_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1528580805626560512/k9qA_eF0_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/254515782/1653289868",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 836,
+        "favorite_count": 7728,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 3889,
+    "favorite_count": 24273,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

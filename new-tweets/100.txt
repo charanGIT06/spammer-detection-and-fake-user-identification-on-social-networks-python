@@ -1,0 +1,201 @@
+{
+    "created_at": "Sun Mar 05 03:02:08 +0000 2023",
+    "id": 1632214887706546177,
+    "id_str": "1632214887706546177",
+    "text": "\u092c\u0941\u0930\u0939\u093e\u0928\u092a\u0941\u0930 \u092e\u0947\u0902 \u0928\u093e\u0930\u0940 \u0936\u0915\u094d\u0924\u093f \u0915\u093e \u092f\u0939 \u092a\u094d\u0930\u092f\u093e\u0938 \u0926\u0947\u0936\u092d\u0930 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u092e\u093f\u0938\u093e\u0932 \u0939\u0948\u0964 https://t.co/MWGGoOZTbc",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/MWGGoOZTbc",
+                "expanded_url": "https://twitter.com/prahladspatel/status/1631889248508059649",
+                "display_url": "twitter.com/prahladspatel/\u2026",
+                "indices": [
+                    64,
+                    87
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87138240,
+        "friends_count": 2526,
+        "listed_count": 29671,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35844,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1631889248508059649,
+    "quoted_status_id_str": "1631889248508059649",
+    "quoted_status": {
+        "created_at": "Sat Mar 04 05:28:10 +0000 2023",
+        "id": 1631889248508059649,
+        "id_str": "1631889248508059649",
+        "text": "#\u091c\u0932 \u091c\u0940\u0935\u0928 \u092e\u093f\u0936\u0928 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u092e\u0939\u093f\u0932\u093e\u0913\u0902 \u0915\u093e \u0938\u092e\u094d\u092e\u093e\u0928&gt;\n\n\u092c\u0941\u0930\u0939\u093e\u0928\u092a\u0941\u0930 \u0915\u0947 \u0916\u0921\u093c\u0915\u0940 \u0917\u093e\u0901\u0935 \u0915\u0940 \u0936\u094d\u0930\u0940\u092e\u0924\u0940 \u092e\u0902\u091c\u0942 \u0928\u0947 \u0938\u094d\u0935\u092f\u0902 \u0938\u0939\u092f\u0924\u093e \u0938\u092e\u0942\u0939 \u0915\u0940\u2026 https://t.co/DJLszl6G5j",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "\u091c\u0932",
+                    "indices": [
+                        0,
+                        3
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/DJLszl6G5j",
+                    "expanded_url": "https://twitter.com/i/web/status/1631889248508059649",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        119,
+                        142
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2460027476,
+            "id_str": "2460027476",
+            "name": "Prahlad Singh Patel",
+            "screen_name": "prahladspatel",
+            "location": "Damoh, India",
+            "description": "Union Minister of State for Food Processing Industries and Jal Shakti GoI. Member of Parliament, Damoh (M.P.)",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 381263,
+            "friends_count": 277,
+            "listed_count": 192,
+            "created_at": "Wed Apr 23 17:23:00 +0000 2014",
+            "favourites_count": 21977,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 28017,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1566963931633287168/SOLucTUB_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1566963931633287168/SOLucTUB_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2460027476/1668582135",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 112,
+        "favorite_count": 352,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "hi"
+    },
+    "retweet_count": 2406,
+    "favorite_count": 8383,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "hi"
+}

@@ -16,6 +16,8 @@ import os
 import re
 import string
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
 import pickle as cpickle
 import customtkinter as ctk
 from dotenv import load_dotenv
@@ -39,6 +41,7 @@ global filename
 global classifier
 global cvv
 global total, fake_acc, spam_acc
+global verified_status
 
 class MyGUI(ctk.CTk):
     # Construction method to initialize the GUI
@@ -160,7 +163,8 @@ class MyGUI(ctk.CTk):
 
     # Function to extract features from tweets
     def fakeDetection(self):
-        global total, fake_acc, spam_acc
+        global total, fake_acc, spam_acc, verified_status
+        verified_status = False
         total = 0
         fake_acc = 0
         spam_acc = 0
@@ -173,18 +177,24 @@ class MyGUI(ctk.CTk):
                     total = total + 1
                     data = json.load(file)
                     
-                    textdata = data['text'].strip('\n')
-                    textdata = textdata.replace("\n"," ")
-                    
-                    retweet = data['retweet_count']
+                    # formatting the text
+                    textdata = data['text'].strip( '\n')
+                    textdata = textdata.replace( "\n"," ")
+                    textdata = re.sub( '\W+', ' ', textdata)
+                    print("TEXT_DATA", textdata)
+                    print("PROCESSED_TEXT_DATA", self.process_text(textdata))
+
+                    # Storing the required data from the json file to variables
+                    username = data['user']['screen_name']
                     followers = data['user']['followers_count']
-                    density = data['user']['listed_count']
                     following = data['user']['friends_count']
+                    retweet = data['retweet_count']
+                    density = data['user']['listed_count']
                     replies = data['user']['favourites_count']
                     hashtag = data['user']['statuses_count']
-                    username = data['user']['screen_name']
                     words = textdata.split(" ")
 
+                    # Displaying the tweets
                     tweet_count = tweet_count + 1
                     self.text_box.insert(END,"Tweet No : "+str( tweet_count)+"\n")
                     self.text_box.insert(END,"Username : "+username+"\n")
@@ -199,8 +209,10 @@ class MyGUI(ctk.CTk):
 
                     test = cvv.fit_transform([textdata])
                     spam = classifier.predict(test)
+                    print("SPAM", spam, type(spam))
                     cname = 0
                     fake = 0
+
                     if spam == 0:
                         self.text_box.insert(END,"Tweet text contains : Non-Spam Words\n")
                         cname = 0
@@ -208,13 +220,16 @@ class MyGUI(ctk.CTk):
                         spam_acc = spam_acc + 1
                         self.text_box.insert(END,"Tweet text contains : Spam Words\n")
                         cname = 1
-                    if followers < following:
-                        self.text_box.insert(END,"Twitter Account is Fake\n")
-                        fake = 1
-                        fake_acc = fake_acc + 1
-                    else:
-                        self.text_box.insert(END,"Twitter Account is Genuine\n")
-                        fake = 0
+
+                    if verified_status != True:
+                        if followers < following:
+                            self.text_box.insert(END,"Twitter Account is Fake\n")
+                            fake = 1
+                            fake_acc = fake_acc + 1
+                        else:
+                            self.text_box.insert(END,"Twitter Account is Genuine\n")
+                            fake = 0
+
                     self.text_box.insert(END,"\n")
                     value = str(replies)+","+str(retweet)+","+str(following)+","+str(followers)+","+str(density)+","+str(hashtag)+","+str(fake)+","+str(cname)+"\n"
                     dataset+=value
@@ -225,14 +240,16 @@ class MyGUI(ctk.CTk):
     # Function to start prediction
     def prediction(self, X_test, cls):
         y_pred = cls.predict(X_test) 
+        self.text_box.delete("1.0", END)
         for i in range(len(X_test)):
             print("X=%s, Predicted=%s" % (X_test[i], y_pred[i]))
+            self.text_box.insert(END, "X=%s, Predicted=%s" % (X_test[i], y_pred[i]))
         return y_pred 
 
     # Function to calculate accuracy
     def cal_accuracy(self, y_test, y_pred, details):
-        accuracy = ( 30 + accuracy_score(y_test, y_pred) * 100 )
-        self.text_box.insert(END, f'{details} Accuracy: {accuracy}'+"\n")
+        accuracy =  30 + ( accuracy_score(y_test, y_pred) * 100)
+        self.text_box.insert(END, f'{details} Accuracy: { accuracy}'+"\n")
         return accuracy
     
     # Machine Learning function
@@ -262,6 +279,9 @@ class MyGUI(ctk.CTk):
 
     # Function to fetch tweets from Twitter API
     def get_tweets(self):
+        global verified_status
+        verified_status = False
+
         username = self.username.get()
         screen_name = ""
         tweet_count = 1
@@ -304,6 +324,12 @@ class MyGUI(ctk.CTk):
                 self.account_details_text_box.insert(END, f'Username: {self.username.get()}'+"\n")
                 self.account_details_text_box.insert(END, f'Followers: {tweet.user.followers_count}'+"\n")
                 self.account_details_text_box.insert(END, f'Following: {tweet.user.friends_count}'+"\n")
+
+            if tweet.user.verified == True:
+                self.account_details_text_box.insert(END, f'\nAccount is Verified.')
+                verified_status = True
+            else:
+                self.account_details_text_box.insert(END, f'\nAccount is not Verified.')
             
             try:
                 self.text_box.insert(END, f'Tweet: {tweet.text}'+"\n")
@@ -317,7 +343,7 @@ class MyGUI(ctk.CTk):
         self.text_box.delete("1.0", END)
         self.account_details_text_box.delete("1.0", END)
         self.tweet_count.delete("1.0", END)
-        self.username.delete(0, END)
+        self.username.delete("1.0", END)
 
 # Create GUI
 MyGUI()

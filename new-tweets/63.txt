@@ -1,0 +1,206 @@
+{
+    "created_at": "Fri Mar 10 02:29:24 +0000 2023",
+    "id": 1634018587613736961,
+    "id_str": "1634018587613736961",
+    "text": "\u0a95\u0aa8\u0ac7\u0a95\u0acd\u0a9f\u0abf\u0ab5\u0abf\u0a9f\u0ac0 \u0ab5\u0aa7\u0abe\u0ab0\u0ab5\u0abe\u0aa8\u0acb \u0a85\u0aae\u0abe\u0ab0\u0acb \u0ab8\u0aa4\u0aa4 \u0aaa\u0acd\u0ab0\u0aaf\u0abe\u0ab8 \u0a9b\u0ac7 \u0a9c\u0ac7\u0aa5\u0ac0 \u0ab2\u0acb\u0a95\u0acb\u0aa8\u0ac7 \u0ab8\u0ac1\u0ab5\u0abf\u0aa7\u0abe \u0a89\u0aaa\u0ab2\u0aac\u0acd\u0aa7 \u0aa5\u0abe\u0aaf\u2026. https://t.co/ms3Mj6jzZ9",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/ms3Mj6jzZ9",
+                "expanded_url": "https://twitter.com/rajeshchudasma/status/1633449133527928832",
+                "display_url": "twitter.com/rajeshchudasma\u2026",
+                "indices": [
+                    73,
+                    96
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87138240,
+        "friends_count": 2526,
+        "listed_count": 29671,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35844,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1633449133527928832,
+    "quoted_status_id_str": "1633449133527928832",
+    "quoted_status": {
+        "created_at": "Wed Mar 08 12:46:36 +0000 2023",
+        "id": 1633449133527928832,
+        "id_str": "1633449133527928832",
+        "text": "\u0a85\u0a97\u0abe\u0a89,\u0a8f\u0ab0\u0a95\u0acd\u0ab0\u0abe\u0aab\u0acd\u0a9f\u0aa8\u0ac7 \u0a9c\u0aae\u0ac0\u0aa8 \u0aaa\u0ab0\u0aa5\u0ac0 \u0a9c \u0a9c\u0acb\u0ab5\u0ac1\u0a82 \u0ab6\u0a95\u0acd\u0aaf \u0ab9\u0aa4\u0ac1\u0a82, \u0a9c\u0acd\u0aaf\u0abe\u0ab0\u0ac7 \u0aa4\u0ac7 \u0ab9\u0ab5\u0abe\u0aae\u0abe\u0a82 \u0ab9\u0acb\u0aaf.\n\n\u0aaa\u0ab0\u0a82\u0aa4\u0ac1 \u0a86\u0a9c\u0ac7 \u0a95\u0ac7\u0aa8\u0acd\u0aa6\u0acd\u0ab0 \u0ab8\u0ab0\u0a95\u0abe\u0ab0\u0aa8\u0ac0 \u0a89\u0aa1\u0abe\u0aa8 \u0aaf\u0acb\u0a9c\u0aa8\u0abe\u0aa8\u0ac7 \u0a95\u0abe\u0ab0\u0aa3\u0ac7\u2026 https://t.co/UmYdcF6lYp",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/UmYdcF6lYp",
+                    "expanded_url": "https://twitter.com/i/web/status/1633449133527928832",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        115,
+                        138
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 748169877089726464,
+            "id_str": "748169877089726464",
+            "name": "Rajesh Chudasama",
+            "screen_name": "rajeshchudasma",
+            "location": "Junagadh,Gujarat,India",
+            "description": "2nd Term Member Of Parliament(LS) Junagadh/GirSomnath-Gujarat. Ex-MLA Mangrol/Maliya-Gujarat. Member Of Parliamentary Committee Of #BJPGujarat",
+            "url": "https://t.co/ynBLTDC5Og",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/ynBLTDC5Og",
+                            "expanded_url": "http://www.rajeshchudasama.com",
+                            "display_url": "rajeshchudasama.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 32055,
+            "friends_count": 698,
+            "listed_count": 64,
+            "created_at": "Wed Jun 29 15:02:53 +0000 2016",
+            "favourites_count": 195576,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 39119,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1565998974922010624/dus9R4JV_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565998974922010624/dus9R4JV_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/748169877089726464/1666258381",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 70,
+        "favorite_count": 217,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "gu"
+    },
+    "retweet_count": 1687,
+    "favorite_count": 5580,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "gu"
+}

@@ -1,0 +1,195 @@
+{
+    "created_at": "Tue Mar 07 16:01:31 +0000 2023",
+    "id": 1633135799666610177,
+    "id_str": "1633135799666610177",
+    "text": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u091c\u0928 \u0914\u0937\u0927\u093f \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0915\u094b \u0932\u0947\u0915\u0930 \u0905\u0938\u092e \u0915\u0947 \u0932\u094b\u0917\u094b\u0902 \u0915\u093e \u0905\u0928\u0941\u092d\u0935 \u0909\u0924\u094d\u0938\u093e\u0939\u093f\u0924 \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e \u0939\u0948\u0964 \u0926\u0947\u0936 \u0915\u0947 \u091c\u0928-\u091c\u0928 \u0915\u0940 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0941\u0930\u2026 https://t.co/0xeY6xqOQn",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/0xeY6xqOQn",
+                "expanded_url": "https://twitter.com/i/web/status/1633135799666610177",
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "indices": [
+                    114,
+                    137
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 18839785,
+        "id_str": "18839785",
+        "name": "Narendra Modi",
+        "screen_name": "narendramodi",
+        "location": "India",
+        "description": "Prime Minister of India",
+        "url": "https://t.co/m2qxixbpwb",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/m2qxixbpwb",
+                        "expanded_url": "http://www.narendramodi.in",
+                        "display_url": "narendramodi.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 87138240,
+        "friends_count": 2526,
+        "listed_count": 29671,
+        "created_at": "Sat Jan 10 17:18:56 +0000 2009",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 35844,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4EDD4",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18839785/1662195056",
+        "profile_link_color": "4E7096",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "D5DFED",
+        "profile_text_color": "233863",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1633072915037184000,
+    "quoted_status_id_str": "1633072915037184000",
+    "quoted_status": {
+        "created_at": "Tue Mar 07 11:51:38 +0000 2023",
+        "id": 1633072915037184000,
+        "id_str": "1633072915037184000",
+        "text": "\"\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940\" \u0936\u092c\u094d\u0926 \u0905\u092c \u090f\u0915 \u091a\u093f\u0928\u094d\u0939 \u092c\u0928 \u0917\u092f\u093e \u0939\u0948 - \u0938\u0930\u094b\u0915\u093e\u0930 \u0915\u093e,\u0935\u093f\u0936\u094d\u0935\u0938\u0928\u0940\u092f\u0924\u093e \u0915\u093e, \u0910\u0938\u0947 \u092a\u094d\u0930\u092f\u093e\u0938\u094b\u0902 \u0915\u093e \u091c\u093f\u0928\u0915\u093e \u0938\u0940\u0927\u093e \u092a\u094d\u0930\u092d\u093e\u0935 \u091c\u0928 \u091c\u0928 \u0915\u0947 \u091c\u0940\u2026 https://t.co/B5I6lZRjFR",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/B5I6lZRjFR",
+                    "expanded_url": "https://twitter.com/i/web/status/1633072915037184000",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1109387159671373824,
+            "id_str": "1109387159671373824",
+            "name": "Queen Oja",
+            "screen_name": "oja_queen",
+            "location": "Assam, India",
+            "description": "Member of Parliament(LS)\n7 No Guwahati Constituency",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 4410,
+            "friends_count": 108,
+            "listed_count": 14,
+            "created_at": "Sat Mar 23 09:31:25 +0000 2019",
+            "favourites_count": 1294,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 6299,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1569226103176445953/EINt5Ih-_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1569226103176445953/EINt5Ih-_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1109387159671373824/1607707511",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1632600033366515712,
+        "quoted_status_id_str": "1632600033366515712",
+        "retweet_count": 71,
+        "favorite_count": 363,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "hi"
+    },
+    "retweet_count": 2388,
+    "favorite_count": 9578,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "hi"
+}
