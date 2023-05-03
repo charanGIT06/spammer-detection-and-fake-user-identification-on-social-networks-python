@@ -1,5 +1,6 @@
 # Dependencies
 # GUI
+import requests
 import tkinter as tk
 from tkinter import END, filedialog, Scrollbar
 from tkinter.filedialog import askopenfilename
@@ -16,15 +17,15 @@ from sklearn.naive_bayes import MultinomialNB
 # Graph Plotting
 import matplotlib.pyplot as plt
 # Data Processing
-import numpy as np 
+import numpy as np  
 import pandas as pd 
-import random as r
 import json
 import os
 import re
 import string
 from nltk.corpus import stopwords
 import nltk
+import random as r
 nltk.download('stopwords')
 import pickle as cpickle
 # .ENV
@@ -75,24 +76,36 @@ class MyGUI(ctk.CTk):
 
         # Upload Tweets Button
         self.upload_tweets_button = ctk.CTkButton(self.sidebar_frame, text="Upload Tweets", font=("Arial", 20), corner_radius=20, command=self.upload_dataset)
-        self.upload_tweets_button.grid(row=1, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        self.upload_tweets_button.grid(row=1, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
 
         # Load Naive Bayes Button
         self.Load_Naive_Bayes_button = ctk.CTkButton(self.sidebar_frame, text="Load Naive Bayes", font=("Arial", 20), corner_radius=20, command=self.load_naive_bayes)
-        self.Load_Naive_Bayes_button.grid(row=2, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        self.Load_Naive_Bayes_button.grid(row=2, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
 
         # Run Random Forest Button
         self.Run_Random_Forest_button = ctk.CTkButton(self.sidebar_frame, text="Run Random Forest", font=("Arial", 20), corner_radius=20, command=self.machine_learning)
-        self.Run_Random_Forest_button.grid(row=3, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        self.Run_Random_Forest_button.grid(row=3, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
 
         # Detect Button
         self.Detect_button = ctk.CTkButton(self.sidebar_frame, text="Detect", font=("Arial", 20), corner_radius=20, command=self.fakeDetection)
-        self.Detect_button.grid(row=4, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        self.Detect_button.grid(row=4, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
 
         # Graph Button
         self.Graph_button = ctk.CTkButton(self.sidebar_frame, text="Graph", font=("Arial", 20), corner_radius=20, command=self.graph)
-        self.Graph_button.grid(row=5, column=0, padx=25, pady=10, ipadx=15, ipady=10, stick="ew")
+        self.Graph_button.grid(row=5, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
 
+        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Tweets from Hashtag", font=("Arial", 20))
+        self.logo_label.grid(row=6, column=0, padx=40, pady=(20, 5))
+
+        self.hashtag = ctk.CTkEntry(self.sidebar_frame, width=20, placeholder_text="Enter hashtag",font=("Arial", 20))
+        self.hashtag.grid(row=7, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
+
+        self.hashtag_tweet_count = ctk.CTkEntry(self.sidebar_frame, width=20, placeholder_text="Enter tweet count",font=("Arial", 20))
+        self.hashtag_tweet_count.grid(row=8, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")
+
+        # Get Tweets Button
+        self.get_tweets_button = ctk.CTkButton(self.sidebar_frame, text="Get Tweets", font=("Arial", 20), corner_radius=20, command=self.get_tweets_hashtag)
+        self.get_tweets_button.grid(row=9, column=0, padx=25, pady=5, ipadx=15, ipady=10, stick="ew")    
 
         # # Test with Live Data Label
         # self.test_label = ctk.CTkLabel(self.sidebar_frame, text="Test", font=("Arial", 20))
@@ -116,7 +129,7 @@ class MyGUI(ctk.CTk):
         self.tweet_frame.grid(row=0, column=2, rowspan=4, sticky="nsew", padx=(0, 20), pady=20)
 
         # Creating the Frame Label
-        self.tweet_label = ctk.CTkLabel(self.tweet_frame, text="Enter Details", font=("Arial", 20))
+        self.tweet_label = ctk.CTkLabel(self.tweet_frame, text="Tweets from User", font=("Arial", 20))
         self.tweet_label.grid(row=0, column=0, padx=65, pady=(20, 5), stick="we")
 
         # Creating the Username Entry
@@ -170,8 +183,11 @@ class MyGUI(ctk.CTk):
         global cvv
         self.text_box.delete("1.0", END)
         classifier = cpickle.load(open('model/naiveBayes.pkl', 'rb'))
+        print(classifier)
         cv = CountVectorizer(decode_error="replace", vocabulary=cpickle.load(open("model/feature.pkl", "rb")))
+        print(cv)
         cvv = CountVectorizer(vocabulary=cv.get_feature_names(), stop_words="english", lowercase = True)
+        print(cvv )
         self.text_box.insert(END, f'Naive Bayes Classifier Loaded!'+"\n")
 
     # Function to extract features from tweets
@@ -191,7 +207,7 @@ class MyGUI(ctk.CTk):
                     data = json.load(file)
                     
                     # formatting the text
-                    textdata = data['text'].strip( '\n')
+                    textdata = data['text'].strip('\n')
                     textdata = textdata.replace( "\n"," ")
                     textdata = textdata.replace( "\t"," ")
                     textdata = re.sub( '\W+', ' ', textdata)
@@ -294,6 +310,55 @@ class MyGUI(ctk.CTk):
         plt.xticks(y_pos, bars)
         plt.show()
 
+    # function to get tweets using hashtag from twitter api
+    def get_tweets_hashtag(self):
+
+        hashtag = self.hashtag.get()
+        tweet_count = 1
+
+        self.text_box.delete("1.0", END)
+        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+
+        auth.set_access_token(access_token, access_token_secret)
+        api = tweepy.API(auth)	
+
+        # tweets = api.search_tweets(q=hashtag, count=(self.tweet_count.get() or 20))
+
+        try:
+            tweets = api.search_tweets(q=hashtag, count=(self.hashtag_tweet_count.get() or 20))
+        except:
+            self.text_box.delete(1.0, END)
+            self.text_box.insert(END, f'Hashtag: {hashtag} does not exist!'+"\n")
+
+        # Deleting all files before saving new tweets in new-tweets folder
+        count = 0
+        for root_dir, cur_dir, files in os.walk('new-tweets'):
+            for file in files:
+                os.remove(os.path.join(root_dir, file))
+                count = count + 1
+        print(f'{count} files deleted!')
+
+        # Saving tweets in new-tweets folder
+        filenum = 1
+        for tweet in tweets:
+            file = open("new-tweets/"+str(filenum)+".txt", "w")
+            tweet_text = ' '.join(tweet.text.split('\n'))
+            tweet_text = ''.join([i for i in tweet_text if ord(i) in range(65536)])
+            file.write(str(json.dump(tweet._json, fp=file, indent=4))[:-4])
+            filenum += 1
+            file.close()
+
+            self.text_box.insert(END, f'Tweet Count: {tweet_count}\n')
+            self.text_box.insert(END, f'Username: {tweet.user.screen_name}\n')
+            self.text_box.insert(END, f'Tweet: {tweet_text}\n')
+            self.text_box.insert(END, f'Followers: {tweet.user.followers_count}\n')
+            self.text_box.insert(END, f'Following: {tweet.user.friends_count}\n')
+            self.text_box.insert(END, f'Replies: {tweet.user.statuses_count}\n')
+            self.text_box.insert(END, f'Retweet: {tweet.retweet_count}\n')
+            self.text_box.insert(END, f'Hashtag: #{hashtag}\n\n')
+
+            tweet_count = tweet_count + 1
+
     # Function to fetch tweets from Twitter API
     def get_tweets(self):
         global verified_status
@@ -308,6 +373,7 @@ class MyGUI(ctk.CTk):
 
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth)	
+        tweets = []
 
         try:
             tweets = api.user_timeline(screen_name=username, count=(self.tweet_count.get() or 20))
@@ -353,24 +419,25 @@ class MyGUI(ctk.CTk):
             self.text_box.insert(END, f'Retweet Count: {tweet.retweet_count}'+"\n")
             self.text_box.insert(END, f'Favorite Count: {tweet.favorite_count}'+"\n\n")
 
-        # Twitter profile Image
-        imageUrl = "" or tweet.user.profile_image_url[:-11] + ".jpg"
-        u = urlopen(imageUrl)
-        raw_data = u.read()
-        u.close()
+            # Twitter profile Image
+            imageUrl = "" or tweet.user.profile_image_url[:-11] + ".jpg"
+            response = requests.get(imageUrl)
+            with open("image.jpg", "wb") as f:
+                f.write(response.content)
 
-        photo = ImageTk.PhotoImage(data=raw_data)
-        label = ctk.CTkLabel(self.sidebar_frame, text=" ", image=photo)
-        label.image = photo
-        label.grid(row=6, column=0, padx=40, pady=(30, 10))
+            image = ctk.CTkImage(Image.open('image.jpg'), size=(200, 200))
+            image_label = ctk.CTkLabel(self.sidebar_frame, text="", image=image, corner_radius=20)
+            image_label.image = image
+            image_label.grid(row=6, column=0, padx=40, pady=(30, 10))
 
     # Function to clear text boxes
     def clear_text(self):
-        self.username.delete("1.0", END)
-        self.tweet_count.delete("1.0", END)
-        self.account_details_text_box.delete("1.0", END)
-        self.text_box.delete("1.0", END)
-        self.text_box.insert("1.0", 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
+        self.username.delete(0, END)
+        self.tweet_count.delete(0, END)
+        self.account_details_text_box.delete('1.0', END)
+        self.account_details_text_box.insert('1.0', 'Name:\nUsername:\nFollowers:\nFollowing:')
+        self.text_box.delete('1.0', END)
+        self.text_box.insert('1.0', 'Welcome to our Project!\n\nTrain the Model and test it with live data.\n\nEnter the username of the account and the number of tweets that you want to test and click on  the "Get Tweets" button.\nUpload the new tweets and click on the "Detect" button to see the results.')
 
 # Create GUI
 MyGUI()
